@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
           colorScheme: ColorScheme.light().copyWith(
             primary: Color(0xFF0A0E21),
@@ -26,4 +27,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
